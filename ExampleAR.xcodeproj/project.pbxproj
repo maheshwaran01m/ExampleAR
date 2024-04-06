@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D5F7B772BC18D83002FBBEB /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5F7B762BC18D83002FBBEB /* LayoutConstraint.swift */; };
 		9DFF6A292BC1861F0057B4FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFF6A282BC1861F0057B4FE /* AppDelegate.swift */; };
 		9DFF6A2B2BC1861F0057B4FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFF6A2A2BC1861F0057B4FE /* SceneDelegate.swift */; };
 		9DFF6A2D2BC1861F0057B4FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFF6A2C2BC1861F0057B4FE /* ViewController.swift */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D5F7B762BC18D83002FBBEB /* LayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutConstraint.swift; sourceTree = "<group>"; };
 		9DFF6A252BC1861F0057B4FE /* ExampleAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DFF6A282BC1861F0057B4FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DFF6A2A2BC1861F0057B4FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -35,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D5F7B752BC18D6B002FBBEB /* ViewExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				3D5F7B762BC18D83002FBBEB /* LayoutConstraint.swift */,
+			);
+			path = ViewExtensions;
+			sourceTree = "<group>";
+		};
 		9DFF6A1C2BC1861F0057B4FE = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +85,7 @@
 		9DFF6A3D2BC1866B0057B4FE /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				3D5F7B752BC18D6B002FBBEB /* ViewExtensions */,
 				9DFF6A2C2BC1861F0057B4FE /* ViewController.swift */,
 			);
 			path = Sources;
@@ -150,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D5F7B772BC18D83002FBBEB /* LayoutConstraint.swift in Sources */,
 				9DFF6A2D2BC1861F0057B4FE /* ViewController.swift in Sources */,
 				9DFF6A292BC1861F0057B4FE /* AppDelegate.swift in Sources */,
 				9DFF6A2B2BC1861F0057B4FE /* SceneDelegate.swift in Sources */,
