@@ -45,6 +45,12 @@ class ViewController: UIViewController {
     sceneView.showsStatistics = true
     
     let config = ARWorldTrackingConfiguration()
+    config.planeDetection = [.horizontal, .vertical]
+    config.environmentTexturing = .automatic
+    
+    if ARWorldTrackingConfiguration.supportsSceneReconstruction(.mesh) {
+      config.sceneReconstruction = .mesh
+    }
     sceneView.session.run(config)
   }
 }
