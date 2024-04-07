@@ -39,3 +39,80 @@ class CustomARView: ARSCNView {
     self.scene.rootNode.addChildNode(sphere)
   }
 }
+
+
+/// ```Gravity Alignment``
+
+/*
+ 
+ Origin (x: 0, y: 0, z: 0)
+ 
+ 
+ 
+                                   + Y (Up away from gravity)
+                                     |
+                                     |
+                                     |
+                                     |
+                                     |           / -Z ( Relative forward away from user)
+                                     |          /
+                                     |         /
+                                     |        /
+                                     |       /
+                                     |      /
+                                     |     /
+                                     |    /
+                                     |   /
+                                     |  /
+ (Relative left)                     | /
+      - X   -------------------------|-------------------  + X (Relative right
+                                   / |
+                                  /  |
+                                 /   |
+                                /    |
+                               /     |
+                              /      |
+                             /       |
+                            /        |
+                           /         |
+                          /          |
+                         /           |
+                        /            |
+                       /             |
+           + Z                       |
+        (Relative backward)          |
+       ( towards user)
+                                    - Y (Down towards gravity)
+ 
+ 
+ ARKit
+ 
+           |
+           |
+           |
+           |
+           |
+           |
+           |
+           | iPhone (Bottom left)
+           |_____________________________
+          (x: 0, y: 0)
+ 
+ 
+ 
+ Default
+           
+           Top Left
+            _____________________________
+           |  (x: 0, y: 0)
+           |
+           |
+           |
+           |     iPhone
+           |
+           |
+           |
+           |
+  
+
+*/
